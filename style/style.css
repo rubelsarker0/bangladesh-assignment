@@ -1,0 +1,352 @@
+/* Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Yeseva+One&display=swap");
+
+/* general styles */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Spectral", serif;
+    background-color: #8080801a;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.display-flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.generic-btn {
+	text-decoration: none;
+	padding: 0.6em;
+	border-radius: 5px;
+	color: #ffffff;
+    cursor:pointer
+}
+
+.generic-background-color {
+	background-color: #c6e4d6;
+}
+
+.generic-button-bg-color {
+	background-color: #006a50;
+}
+.generic-btn:hover {
+	background-color: rgba(255, 0, 0, 0.624);
+}
+
+.half-width {
+	width: 50%;
+}
+
+/* navbar style */
+nav {
+	padding-top: 60px;
+}
+.navbar-btn {
+	width: 80px;
+	text-decoration: none;
+	text-align: center;
+	color: #006a50;
+	padding: 0.6em;
+	border: #006a50 2px solid;
+	border-radius: 5px;
+	font-weight: 700;
+}
+
+.navbar-btn-hover:hover {
+	background-color: #006a5064;
+}
+
+/* top-banner-area style */
+.top-banner {
+	font-family: "Yeseva One", cursive;
+	margin-top: 5em;
+	padding: 40px;
+	border-radius: 5px;
+}
+.top-banner-info p {
+	color: rgba(128, 128, 128, 0.847);
+}
+.top-banner-info h1 {
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 30px;
+}
+.top-banner-info a {
+	margin-top: 50px;
+}
+
+/* pillars-of-bangladesh style */
+
+.pillars-of-bangladesh {
+	margin-top: 2em;
+}
+.pillars-title {
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.pillars-card {
+	margin: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+/* vision-of-bangladesh style */
+.vision-of-bangladesh {
+	margin-top: 2em;
+}
+
+.vision-title {
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-weight: bolder;
+}
+
+.vision-card {
+	margin: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 5px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.vision-card p {
+	margin-bottom: 30px;
+}
+.vision-digital-btn-bg-color {
+	background-color: #5490f5;
+}
+.vision-green-btn-bg-color {
+	background-color: #09a15c;
+}
+.vision-modern-btn-bg-color {
+	background-color: #ffc239;
+}
+.digital-bg-color {
+	background-color: #81b4fc5d;
+}
+.green-bg-color {
+	background-color: #c6e4d6;
+}
+.modern-bg-color {
+	background-color: #f7ebcf;
+}
+/* vision-of-bangladesh style */
+.quote-info {
+	margin-top: 2em;
+	padding: 30px;
+	background-image: url("../assets/quote-bg.png");
+	background-repeat: no-repeat;
+	background-position: 27px 10px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.yunus-quote {
+	margin-bottom: 10px;
+}
+.designation {
+	color: rgba(128, 128, 128, 0.847);
+}
+
+/* Your-opinion style */
+
+.your-opinion {
+	margin-top: 2em;
+}
+.opinion-title {
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+th,
+td {
+	border: 1px solid #ddd;
+	padding: 8px;
+	text-align: left;
+}
+
+select {
+	padding: 5px;
+	border-radius: 5px;
+	background-color: #c6e4d6;
+}
+
+/* Recent-News style */
+.recent-news {
+	margin-top: 2em;
+}
+.recent-news-title {
+	margin-bottom: 0.5em;
+}
+.recent-news-des {
+	margin-bottom: 30px;
+}
+
+.recent-news-card {
+	margin: 10px;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.satellite-image {
+	padding: 20px;
+	border-radius: 50px;
+	max-width: 406px;
+	height: 306px;
+}
+.al-jazeera-image {
+	margin-bottom: 2px;
+}
+.date-time {
+	margin-bottom: 10px;
+}
+.date-time span {
+	margin-left: 10px;
+}
+.news-details {
+	margin-bottom: 30px;
+}
+
+/* Donate-Today style */
+.donate-today {
+    margin-top: 3em;
+}
+.donate-title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+.donate-des {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.donate-card {
+    width: 204px;
+    margin: 10px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        cursor:pointer
+}
+
+.donate-card:hover {
+    background-color: #C6E4D6
+}
+.donate-amount {
+    text-align: center;
+    font-size: 35px;
+}
+.other-amount {
+    margin-top: 2em;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+   
+}
+.other-amount input {
+    text-align: center;
+    border: none;
+    font-size: 20px;
+    width: 1032px;
+    height: 64px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+    border-radius: 5px;
+}
+.amount-bg-color {
+    background-color: #C6E4D6;
+}
+.amount-bg-color:hover {
+    background-color: brown;
+}
+
+.donate-btn {
+    margin-top: 1em;
+    padding: 15px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+/* Donate-Today style */
+.subscribe-today{
+    margin-top: 3em;
+    margin-bottom: 5em;
+    border-radius: 10px;
+}
+.sub-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 50px;
+}
+.sub-info  {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.sub-input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub-input-group input {
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 750px;
+    height: 56px;
+}
+
+.sub-btn {
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+.spam {
+    margin-top: 1em;
+    padding-bottom: 50px;
+    text-align: center;
+    color: gray;
+}
+/* footer style */
+
+footer {
+    margin: 2em 2em;
+}
+footer h1 {
+    text-align: center;
+    
+}
