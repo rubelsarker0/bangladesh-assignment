@@ -1,7 +1,7 @@
 /* Google fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Spectral&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Yeseva+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@400;500&family=Yeseva+One&display=swap');
 
 /* general styles */
 
@@ -12,8 +12,8 @@
 }
 
 body {
-	font-family: "Spectral", serif;
-    background-color: #8080801a;
+	font-family: 'Spectral', serif;
+	background-color: #8080801a;
 }
 
 .container {
@@ -32,7 +32,7 @@ body {
 	padding: 0.6em;
 	border-radius: 5px;
 	color: #ffffff;
-    cursor:pointer
+	cursor: pointer;
 }
 
 .generic-background-color {
@@ -71,8 +71,8 @@ nav {
 
 /* top-banner-area style */
 .top-banner {
-	font-family: "Yeseva One", cursive;
-	margin-top: 5em;
+	font-family: 'Yeseva One', cursive;
+	margin-top: 2em;
 	padding: 40px;
 	border-radius: 5px;
 }
@@ -153,7 +153,7 @@ nav {
 .quote-info {
 	margin-top: 2em;
 	padding: 30px;
-	background-image: url("../assets/quote-bg.png");
+	background-image: url('../assets/quote-bg.png');
 	background-repeat: no-repeat;
 	background-position: 27px 10px;
 	background-color: #ffffff;
@@ -235,118 +235,117 @@ select {
 
 /* Donate-Today style */
 .donate-today {
-    margin-top: 3em;
+	margin-top: 3em;
 }
 .donate-title {
-    text-align: center;
-    font-size: 40px;
-    margin-bottom: 15px;
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 15px;
 }
 .donate-des {
-    margin-bottom: 20px;
-    text-align: center;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 .donate-card {
-    width: 204px;
-    margin: 10px;
+	width: 204px;
+	margin: 10px;
 	padding: 20px;
 	border-radius: 10px;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
 		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        cursor:pointer
+	cursor: pointer;
 }
 
 .donate-card:hover {
-    background-color: #C6E4D6
+	background-color: #c6e4d6;
 }
 .donate-amount {
-    text-align: center;
-    font-size: 35px;
+	text-align: center;
+	font-size: 35px;
 }
 .other-amount {
-    margin-top: 2em;
-    display: flex;
-    justify-content: center; 
-    align-items: center;  
-   
+	margin-top: 2em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .other-amount input {
-    text-align: center;
-    border: none;
-    font-size: 20px;
-    width: 1032px;
-    height: 64px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
-    border-radius: 5px;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	width: 1032px;
+	height: 64px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+	border-radius: 5px;
 }
 .amount-bg-color {
-    background-color: #C6E4D6;
+	background-color: #c6e4d6;
 }
 .amount-bg-color:hover {
-    background-color: brown;
+	background-color: brown;
 }
 
 .donate-btn {
-    margin-top: 1em;
-    padding: 15px;
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
+	margin-top: 1em;
+	padding: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 /* Donate-Today style */
-.subscribe-today{
-    margin-top: 3em;
-    margin-bottom: 5em;
-    border-radius: 10px;
+.subscribe-today {
+	margin-top: 3em;
+	margin-bottom: 5em;
+	border-radius: 10px;
 }
 .sub-title {
-    text-align: center;
-    font-size: 40px;
-    font-weight: 700;
-    padding-top: 50px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 700;
+	padding-top: 50px;
 }
-.sub-info  {
-    text-align: center;
-    padding-bottom: 50px;
+.sub-info {
+	text-align: center;
+	padding-bottom: 50px;
 }
 
 .sub-input-group {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .sub-input-group input {
-    text-align: center;
-    border: none;
-    border-radius: 5px;
-    font-size: 20px;
-    width: 750px;
-    height: 56px;
+	text-align: center;
+	border: none;
+	border-radius: 5px;
+	font-size: 20px;
+	width: 750px;
+	height: 56px;
 }
 
 .sub-btn {
-    text-decoration: none;
-    padding: 15px;
-    border-radius: 5px;
-    color: #ffffff;
-    cursor: pointer;
+	text-decoration: none;
+	padding: 15px;
+	border-radius: 5px;
+	color: #ffffff;
+	cursor: pointer;
 }
 .spam {
-    margin-top: 1em;
-    padding-bottom: 50px;
-    text-align: center;
-    color: gray;
+	margin-top: 1em;
+	padding-bottom: 50px;
+	text-align: center;
+	color: gray;
 }
 /* footer style */
 
 footer {
-    margin: 2em 2em;
+	margin: 2em 2em;
 }
 footer h1 {
-    text-align: center;
-    
+	text-align: center;
 }
